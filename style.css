@@ -1,0 +1,44 @@
+body{
+    background-color:blueviolet;
+    border-color:black;
+    border-width:5px;
+    border-style:solid;
+    text-align:center;
+}
+h1{
+    
+    background-color:aqua;
+    text-align:center;
+    padding:10px;
+    margin:10px;
+}
+#one{
+
+
+margin:20px;
+padding:20px;
+padding-right:30px;
+background-color:rgb(176, 176, 129);
+border-radius:5px;
+
+}
+li{
+display:flex;
+justify-content:center;
+align-items:center;
+
+}
+
+
+button{
+
+    padding:10px;
+    margin:5px;
+    color:blue;
+    background-color:aqua;
+
+}
+div.hover{
+    
+    cursor:pointer;
+}

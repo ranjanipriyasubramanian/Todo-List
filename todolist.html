@@ -1,0 +1,26 @@
+
+<link rel="stylesheet" href="style.css" />
+<h1>Todo List</h1>
+<div id="two">
+  <input id="one" />
+  <button onclick="add()">Add</button>
+  <ul id="list">
+    <li>
+      Hello
+      <button onclick="delte(event)">delete</button>
+    </li>
+  </ul>
+</div>
+<script>
+  var ul = document.getElementById("list");
+  var input = document.getElementById("one");
+  function add() {
+    var list = document.createElement("li");
+    list.innerHTML =
+      input.value + "<button onclick='delte(event)'>Delete</button>";
+    ul.append(list);
+  }
+  function delte(event) {
+    event.target.parentElement.remove();
+  }
+</script>
